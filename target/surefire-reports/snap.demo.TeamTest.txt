@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: snap.demo.TeamTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.53 sec <<< FAILURE!
+snap.demo.TeamTest.testGetOrCreateTeam()  Time elapsed: 0.529 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: 4
+ but was: 3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at snap.demo.TeamTest.testGetOrCreateTeam(TeamTest.java:38)
+
+snap.demo.TeamTest.testGetLeagueResults()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at snap.demo.TeamTest.testGetLeagueResults(TeamTest.java:56)
+
+snap.demo.TeamTest.testAddTeamPoints()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at snap.demo.LeagueResults.addTeamPoints(LeagueResults.java:46)
+	at snap.demo.TeamTest.testAddTeamPoints(TeamTest.java:44)
+
