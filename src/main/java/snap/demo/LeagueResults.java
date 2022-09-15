@@ -11,7 +11,7 @@ public class LeagueResults
 {
   public static void main(String[] args) throws FileNotFoundException 
   {
-    Scanner scanFile = new Scanner(new File("C:\\Users\\thato.moeng\\Downloads\\teams.txt")); 
+    Scanner scanFile = new Scanner(new File(args[0])); 
     while (scanFile.hasNextLine())
     {
       Scanner scanLine = new Scanner(scanFile.nextLine()).useDelimiter(",");
